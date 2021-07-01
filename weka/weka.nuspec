@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>weka</id>
+    <version>3.8.5</version>
+    <packageSourceUrl>https://github.com/gsmitheidw/weka</packageSourceUrl>
+    <owners>Graham Smith</owners>
+    <title>weka</title>
+    <authors>University of Waikato</authors>
+    <projectUrl>https://github.com/gsmitheidw/weka</projectUrl>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/weka.png</iconUrl>-->
+    <copyright>2021</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://svn.cms.waikato.ac.nz/svn/weka/</projectSourceUrl>
+    <docsUrl>https://waikato.github.io/weka-wiki/documentation/</docsUrl>
+    <mailingListUrl>https://list.waikato.ac.nz/hyperkitty/list/wekalist@list.waikato.ac.nz/</mailingListUrl>
+    <bugTrackerUrl>https://jira.pentaho.com/projects/DATAMINING/issues/DATAMINING-753?filter=allopenissues</bugTrackerUrl>
+    <tags>weka data mining machine learning java</tags>
+    <summary>Weka Machine Learning Software in Java</summary>
+    <description>Weka: Machine Learning Software in Java</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
