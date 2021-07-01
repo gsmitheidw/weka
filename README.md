@@ -23,7 +23,7 @@ Features:
 
 Download nupkg from [here](https://github.com/gsmitheidw/weka/releases/download/1.0/weka.3.8.5.nupkg) and install using
 
-`choco install weka -s <path>` -y
+`choco install weka -s <path> -y`
 
 where <path> is the folder you downloaded the file
 
@@ -33,11 +33,11 @@ of Java implementations available.
 ---
 
 ## Build
-This a repository source for building Weka nupkg for the Chocolatey Package Manager for Windows. 
-To build this:
+To amend the source and build this:
 
 1. Install git and [chocolatey](https://www.chocolatey.org)
-2. Clone this repo with `git clone`
-3. Package source code to nupkg with `choco pack`
-4. Install using: choco install weka --source <current folder where nupkg is>
+2. Clone this repo with `git clone https://github.com/gsmitheidw/weka.git`
+   Make any changes required to the source.
+3. Package source code to nupkg with `choco pack` inside the .\weka\weka folder.
+4. Install using: `choco install weka --source <path>` where <path> is the folder the nupkg is stored.
 
