@@ -2,6 +2,7 @@
 ---
 ## Weka Machine learning software
 
+![Weka Logo](https://github.com/gsmitheidw/weka/blob/a61fab09f49ef13c6af8016809e0600a884d7438/weka.png "Weka Logo")
 Weka is a collection of machine learning algorithms for solving real-world data mining problems. It is written in Java and runs on almost any platform. The algorithms can either be applied directly to a dataset or called from your own Java code.
 
 Features:

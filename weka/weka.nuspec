@@ -8,7 +8,7 @@
     <title>weka</title>
     <authors>University of Waikato</authors>
     <projectUrl>https://github.com/gsmitheidw/weka</projectUrl>
-    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/weka.png</iconUrl>-->
+    <iconUrl>https://github.com/gsmitheidw/weka/blob/a61fab09f49ef13c6af8016809e0600a884d7438/weka.png</iconUrl>
     <copyright>2021</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
