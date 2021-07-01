@@ -1,5 +1,5 @@
 # Weka Chocolatey.org package Recipe
----
+
 ## Weka Machine learning software
 
 ![Weka Logo](https://github.com/gsmitheidw/weka/blob/a61fab09f49ef13c6af8016809e0600a884d7438/weka.png "Weka Logo")
@@ -19,6 +19,20 @@ Features:
 * visualization
 
 ---
+## Installation
+
+Download nupkg from [here](https://github.com/gsmitheidw/weka/releases/download/1.0/weka.3.8.5.nupkg) and install using
+
+`choco install weka -s <path>` -y
+
+where <path> is the folder you downloaded the file
+
+NOTE: Java JRE or JDK is a pre-requisite. The nupkg will not enforce any specific dependency because of the range
+of Java implementations available. 
+
+---
+
+## Build
 This a repository source for building Weka nupkg for the Chocolatey Package Manager for Windows. 
 To build this:
 
