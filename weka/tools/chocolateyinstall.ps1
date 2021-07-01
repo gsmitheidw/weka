@@ -21,19 +21,17 @@ Install-ChocolateyZipPackage @packageArgs
 
 [string]$javapath = (Get-Command javaw).Path
 
-Install-ChocolateyShortcut `
-  -ShortcutFilePath "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\Weka 3.8.5.lnk" `
-  -TargetPath "$javapath" `
-  -WorkingDirectory "$env:ProgramFiles\weka-3-8-5" `
-  -Arguments '-jar weka-3-8-5\weka.jar' `
-  -IconLocation "$env:ProgramFiles\weka-3-8-5\weka.ico" `
-  -Description 'Weka Machine Learning in Java'
-
-
+	Install-ChocolateyShortcut `
+	  -ShortcutFilePath "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\Weka 3.8.5.lnk" `
+	  -TargetPath "$javapath" `
+	  -WorkingDirectory "$env:ProgramFiles\weka-3-8-5" `
+	  -Arguments '-jar weka.jar' `
+	  -IconLocation "$env:ProgramFiles\weka-3-8-5\weka.ico" `
+	  -Description 'Weka Machine Learning in Java'
 
 }
 else {
 
-Write-Warning 'No Java runtime found on path on this system. Please amend path or install a version of Java JDK/JRE'
+	Write-Warning 'No Java runtime found on path on this system. Please amend path or install a version of Java JDK/JRE'
 
 }
