@@ -18,6 +18,10 @@ Features:
 * workflow
 * visualization
 
+Weka is available from here: [https://www.cs.waikato.ac.nz/ml/weka/](https://www.cs.waikato.ac.nz/ml/weka/)
+
+This is a recipe for creating a Chocolatey.org nupkg for the chocolatey package manager.
+
 ---
 ## Installation
 
