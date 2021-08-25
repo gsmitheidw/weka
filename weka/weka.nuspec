@@ -8,7 +8,7 @@
     <title>weka</title>
     <authors>University of Waikato</authors>
     <projectUrl>https://github.com/gsmitheidw/weka</projectUrl>
-    <iconUrl>https://github.com/gsmitheidw/weka/blob/a61fab09f49ef13c6af8016809e0600a884d7438/weka.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/gsmitheidw/weka@a61fab09f49ef13c6af8016809e0600a884d7438/weka.png</iconUrl>
     <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://svn.cms.waikato.ac.nz/svn/weka/</projectSourceUrl>
@@ -17,7 +17,7 @@
     <bugTrackerUrl>https://jira.pentaho.com/projects/DATAMINING/issues/DATAMINING-753?filter=allopenissues</bugTrackerUrl>
     <tags>weka data mining machine learning java</tags>
     <summary>Weka Machine Learning Software in Java</summary>
-    <description>Weka: Machine Learning Software in Java</description>
+    <description>Weka: Machine Learning Software in Java. Please note a Java runtime environment is required such as Oracle JRE or OpenJDK (requires javaw in %path%). Because of the variety of Java runtimes available there is no singular dependency. </description>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

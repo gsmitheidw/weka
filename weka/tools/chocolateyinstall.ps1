@@ -32,6 +32,6 @@ Install-ChocolateyZipPackage @packageArgs
 }
 else {
 
-	Write-Warning 'No Java runtime found on path on this system. Please amend path or install a version of Java JDK/JRE'
+	Write-Error 'No Java runtime found on path on this system. Please amend path or install a version of Java JDK/JRE'
 
 }
