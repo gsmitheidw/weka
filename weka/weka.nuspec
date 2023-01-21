@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>weka</id>
-    <version>3.8.5</version>
+    <version>3.8.6</version>
     <packageSourceUrl>https://github.com/gsmitheidw/weka</packageSourceUrl>
     <owners>Graham Smith</owners>
     <title>weka</title>
@@ -11,7 +11,7 @@
     <iconUrl>https://cdn.jsdelivr.net/gh/gsmitheidw/weka@a61fab09f49ef13c6af8016809e0600a884d7438/weka.png</iconUrl>
     <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://svn.cms.waikato.ac.nz/svn/weka/</projectSourceUrl>
+    <projectSourceUrl>https://git.cms.waikato.ac.nz/weka/weka/-/tree/main/trunk</projectSourceUrl>
     <docsUrl>https://waikato.github.io/weka-wiki/documentation/</docsUrl>
     <mailingListUrl>https://list.waikato.ac.nz/hyperkitty/list/wekalist@list.waikato.ac.nz/</mailingListUrl>
     <bugTrackerUrl>https://jira.pentaho.com/projects/DATAMINING/issues/DATAMINING-753?filter=allopenissues</bugTrackerUrl>
